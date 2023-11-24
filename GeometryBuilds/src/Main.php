@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace Labarjni\GeometryBuild;
 
-use pocketmine\permission\Permission;
-use pocketmine\permission\PermissionManager;
+use Labarjni\GeometryBuild\command\BuildCommand;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
