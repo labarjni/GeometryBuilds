@@ -2,7 +2,6 @@
 
 namespace Labarjni\GeometryBuild\command;
 
-use Labarjni\GeometryBuild\builder\BuilderManager;
 use Labarjni\GeometryBuild\Main;
 
 use pocketmine\command\Command;
@@ -37,9 +36,7 @@ class BuildCommand extends Command
             return false;
         }
 
-        $buildManager = new BuilderManager($this->getPlugin());
-
-        if ($buildManager->build($args[0], $sender->getPosition())) {
+        if ($this->getPlugin()->getBuilderManager()->buildFromGeometry($sender, $args[0])) {
             $sender->sendMessage("§aThe building was loaded successfully");
         } else {
             $sender->sendMessage("§cAn error occurred while loading the building");

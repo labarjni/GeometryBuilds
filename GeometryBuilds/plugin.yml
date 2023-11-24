@@ -10,4 +10,7 @@ permissions:
   BuildCommand.use:
     default: op
     description: Permission for build command
+  UndoCommand.use:
+    default: op
+    description: Permission for build command
 ...
