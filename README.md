@@ -1,7 +1,7 @@
 # GeometryBuilds
 GeometryBuilds will allow you to create buildings in BlockBench for PocketMine-MP
 
-<h3>😎 How to create a building from geometry?</h3>
+<h3>😎 How to create a building</h3>
 <ol>
   <li>Create a bedrock model in BlockBench</li>
   <li>Create a folder with the name of the block and create standard cubes (these are blocks in the game)<br><br><img src='https://github.com/labarjni/GeometryBuilds/blob/master/example1.png?raw=true'></li>
