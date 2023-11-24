@@ -1,0 +1,13 @@
+---
+name: GeometryBuild
+version: 0.0.1
+main: Labarjni\GeometryBuild\Main
+api: 5.4.3
+src-namespace-prefix: Labarjni\GeometryBuild
+description: Will build anything from geometry
+
+permissions:
+  BuildCommand.use:
+    default: op
+    description: Permission for build command
+...
