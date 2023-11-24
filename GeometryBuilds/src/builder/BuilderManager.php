@@ -30,6 +30,8 @@ class BuilderManager
         $geometry = json_decode($geometry, true);
         $bones = 0;
 
+        if (isset(self::$lastBuild[strtolower($player->getName())])) unset(self::$lastBuild[strtolower($player->getName())]);
+
         foreach ($geometry["minecraft:geometry"][0]["bones"] as $bone) {
             $block = LegacyStringToItemParser::getInstance()->parse($bone['name']);
             foreach ($bone['cubes'] as $cube) {
