@@ -1,5 +1,5 @@
 ---
-name: GeometryBuild
+name: GeometryBuilds
 version: 0.0.1
 main: Labarjni\GeometryBuild\Main
 api: 5.4.3

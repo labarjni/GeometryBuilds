@@ -29,7 +29,7 @@ class BuildCommand extends Command
 
         $dataFolder = $this->getPlugin()->getDataFolder();
         if (!file_exists($dataFolder . $args[0] . ".json")) {
-            $sender->sendMessage("§cThe selected geometry was not found, load it into /plugin_data/GeometryBuild/");
+            $sender->sendMessage("§cThe selected geometry was not found, load it into /plugin_data/GeometryBuilds/");
             return false;
         }
 
