@@ -13,6 +13,7 @@ GeometryBuilds will allow you to create buildings in BlockBench for PocketMine-M
 <br>
 <h2>⏱️ Scheduled ⏱️</h2>
 <ul>
+  <li>Undo command</li>
   <li>Accounting for block rotation</li>
   <li>Stairs rotate</li>
   <li>Location of slabs</li>
